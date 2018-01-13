@@ -6,7 +6,7 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 					<i class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand page-scroll" href="./">fulary.pl </a>
+				<a class="navbar-brand page-scroll" href="./"><span class="yellow">h</span>elenai<span class="yellow">s</span>zymon<span class="yellow">z</span>apraszaja.pl </a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">

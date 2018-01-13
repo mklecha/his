@@ -12,10 +12,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 wow fadeInDown">
-                            <h1 class="brand-heading">CZEŚĆ, BIERZEMY ŚLUB</h1>
-                            <p class="intro-text">
-                                Maja i Jędrek
-                            </p>
+                            <h1 class="brand-heading">Witamy na naszej stronie</h1>
+                            <p class="intro-text">Helena i Szymon</p>
                             <a href="#about" class="btn btn-circle page-scroll">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>

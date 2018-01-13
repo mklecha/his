@@ -4,6 +4,41 @@
     }
 }
 
+.intro {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-1.jpg');
+}
+
+.wedding {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-2.jpg');
+}
+
+/* COLOR */
+.yellow {
+    color: #ffa800;
+}
+
+/* FONTS */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
+    font-family: 'Alegreya', serif;
+}
+
+/* NAVBAR */
+.navbar-custom {
+    font-size: 16px;
+}
+
+/**/
+
 #about .fa {
     font-size: 20px;
 }

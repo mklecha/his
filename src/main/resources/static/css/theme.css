@@ -90,7 +90,7 @@ a:hover, a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #1ba39c;
+    color: #ffa800;
     background-color: transparent;
 }
 
@@ -104,11 +104,11 @@ a:hover, a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    color: #1ba39c;
+    color: #ffa800;
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #1ba39c;
+    color: #ffa800;
 }
 
 @media (min-width: 768px) {
