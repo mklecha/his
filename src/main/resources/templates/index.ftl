@@ -42,6 +42,15 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container content-section">
+                <form>
+                    <input type="password">
+                    <button>Zaloguj się</button>
+                </form>
+
+            </div>
+        </section>
 
         <@footer.footer />
 

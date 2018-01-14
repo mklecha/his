@@ -20,4 +20,9 @@ public class PageController {
     public String contact() {
         return "contact";
     }
+
+    @RequestMapping(path = "/reception.html")
+    public String reception() {
+        return "reception";
+    }
 }
