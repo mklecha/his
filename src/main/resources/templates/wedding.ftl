@@ -19,12 +19,12 @@
                                 Serdecznie zapraszamy na <b>Mszę Świętą</b>,<br/>
                                 która odbędzie się 2 września 2017 r. o godzinie 15.00 <br/>
                                 w kościele pw. św. Marcina przy ul. Piwnej 9/11 w&nbsp;Warszawie.<br/>
-                                Mapa znajduje się <a href="#wedding-map" class="page-scroll">poniżej.</a><br/><br/>
+                                Mapa znajduje się <a href="#wedding-map" class="page-scroll yellow">poniżej</a>.<br/><br/>
                                 Będziemy wdzięczni za modlitwę w naszej intencji.
 
                             </p>
-                            <a href="#wedding-map" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
+                            <a href="#wedding-map" class="btn btn-circle page-scroll yellow">
+                                <i class="fa fa-angle-double-down animated yellow"></i>
                             </a>
                         </div>
                     </div>

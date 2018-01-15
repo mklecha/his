@@ -14,8 +14,8 @@
                         <div class="col-md-8 col-md-offset-2 wow fadeInDown">
                             <h1 class="brand-heading">Witamy na naszej stronie</h1>
                             <p class="intro-text">Helena i Szymon</p>
-                            <a href="#about" class="btn btn-circle page-scroll">
-                                <i class="fa fa-angle-double-down animated"></i>
+                            <a href="#about" class="btn btn-circle page-scroll yellow">
+                                <i class="fa fa-angle-double-down animated yellow"></i>
                             </a>
                         </div>
                     </div>

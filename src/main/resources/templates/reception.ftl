@@ -18,13 +18,13 @@
                                 Wesele rozpocznie się o godzinie 18.30 w przestrzeni "Marzycieli i Rzemieślników" znajdującej się na III piętrze Domu Towarowego Bracia Jabłkowscy, przy ul. Brackiej 25 w&nbsp;Warszawie.
                             </p>
                             <p class="intro-text">
-                                Plan dojazdu znajduje się <a href="#reception-map" class="page-scroll">poniżej.</a>
+                                Plan dojazdu znajduje się <a href="#reception-map" class="page-scroll yellow">poniżej</a>.
                             </p>
                             <p>
                                 Aby rozwiązać odwieczny problem weselnych strojów, zachęcamy do angażownia się w obowiązującą konwencję: <b><i>złoto</i></b> lub <b><i>wąsy</i></b>. Planujemy wyłonić i nagrodzić osoby w najzłotszych strojach i z najlepszym wąsem
                             </p>
                             <p class="intro-text">
-                                Prosimy o potwierdzenie przybycia do 10 sierpnia, drogą mailową - na adres <a href="mailto:jedrekimaja@gmail.com">jedrekimaja@gmail.com</a>.
+                                Prosimy o potwierdzenie przybycia do 10 sierpnia, drogą mailową - na adres <a href="mailto:jedrekimaja@gmail.com" class="yellow">jedrekimaja@gmail.com</a>.
                             </p>
                             <a href="#reception-text" class="btnghost page-scroll">
                                 <i class="fa fa-angle-double-down"></i>&nbsp;Prezenty&nbsp;<i class="fa fa-angle-double-down"></i>
