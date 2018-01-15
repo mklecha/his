@@ -20,6 +20,19 @@ public class Gift {
     public Gift() {
     }
 
+    public Gift(String name, String description, String link) {
+        this.name = name;
+        this.description = description;
+        this.link = link;
+    }
+
+    public Gift(String name, String description, String link, boolean reserved) {
+        this.name = name;
+        this.description = description;
+        this.link = link;
+        this.reserved = reserved;
+    }
+
     public int getId() {
         return id;
     }

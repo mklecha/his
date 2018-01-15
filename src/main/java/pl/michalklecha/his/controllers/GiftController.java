@@ -15,6 +15,11 @@ public class GiftController {
     public String gifts(Model model) {
         List<Gift> gifts = new LinkedList<>();
 
+        gifts.add(new Gift("name", "descr", "link"));
+        gifts.add(new Gift("name2", "descr", "link"));
+        gifts.add(new Gift("name3", "descr", "link"));
+        gifts.add(new Gift("name3", "descr", "link", true));
+
         model.addAttribute("gifts", gifts);
 
         return "gifts";

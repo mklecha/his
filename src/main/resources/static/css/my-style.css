@@ -18,6 +18,14 @@
     background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-2.jpg');
 }
 
+.reception {
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-3.jpg');
+}
+
+.contact-bg {
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-4.jpg');
+}
+
 /* COLOR */
 .yellow {
     color: #ffa800;
@@ -48,8 +56,8 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     font-weight: bold;
 }
 
-.white-background {
-    background: rgba(255, 255, 255, 0.1);
+.black-background {
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .wedding .btn-circle {

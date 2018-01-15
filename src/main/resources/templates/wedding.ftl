@@ -13,7 +13,7 @@
             <div class="intro-body">
                 <div class="container">
                     <div class="row margined">
-                        <div class="col-md-8 col-md-offset-2 white-background wow fadeInDown">
+                        <div class="col-md-8 col-md-offset-2 black-background wow fadeInDown">
                             <h1 class="brand-heading">ŚLUB</h1>
                             <p class="intro-text">
                                 Serdecznie zapraszamy na <b>Mszę Świętą</b>,<br/>

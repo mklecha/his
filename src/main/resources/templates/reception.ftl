@@ -12,7 +12,7 @@
             <div class="intro-body">
                 <div class="container">
                     <div class="row margined">
-                        <div class="col-md-8 col-md-offset-2 white-background wow fadeInDown">
+                        <div class="col-md-8 col-md-offset-2 black-background wow fadeInDown">
                             <h1 class="brand-heading">WESELE</h1>
                             <p class="intro-text">
                                 Wesele rozpocznie się o godzinie 18.30 w przestrzeni "Marzycieli i Rzemieślników" znajdującej się na III piętrze Domu Towarowego Bracia Jabłkowscy, przy ul. Brackiej 25 w&nbsp;Warszawie.

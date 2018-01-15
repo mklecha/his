@@ -15,7 +15,7 @@
 					<li <#if active == 'info'>class="active"</#if>><a href="wedding.html">Ślub</a></li>
 					<li <#if active == 'reception'>class="active"</#if>><a href="reception.html">Wesele</a></li>
 					<li <#if active == 'contact'>class="active"</#if>><a href="contact.html">Kontakt</a></li>
-					<li id="admin-panel"><a href="admin.html">Panel Administatora</a></li>
+					<li id="admin-panel" <#if active == 'admin'>class="active"</#if>><a href="admin.html">Panel Administatora</a></li>
 				</ul>
 			</div>
 		</div>
