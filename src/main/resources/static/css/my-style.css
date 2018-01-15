@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
 
 /**/
 
+.btnghost{
+    font-size: 18px;
+}
+
 #about .fa {
     font-size: 20px;
 }
@@ -129,15 +133,67 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     font-weight: bold;
 }
 
-.go-to-gifts a {
-    font-size: 18px;
-}
-
 .go-to-gifts i {
     font-size: 21px;
 }
 
-/* GIFTLIST*/
+/* HOME */
+
+.photo-break {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 100px 0;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/break-img-11.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logging-form {
+}
+
+.logging-form input {
+    border: 2px solid #333;
+    padding: 6px 15px 5px;
+    height: 100%;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.logging-form input:focus {
+    outline: none;
+}
+
+.logging-form button {
+    border: 2px solid #333;
+    background-color: transparent;
+    padding: 5px 20px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-family: 'Alegreya', serif;
+}
+
+.logging-form button:hover {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+}
+
+/* GIFTS */
 .gift-list {
     text-align: left;
     font-size: 20px;
@@ -193,6 +249,8 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     font-size: 18px;
 }
 
+/* CONTACT */
+
 .contact {
     font-size: 20px;
     font-weight: 300;
@@ -230,6 +288,8 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     color: #333;
     border: 2px solid #eee;
 }
+
+/* FOOTER */
 
 footer {
     margin: 0;

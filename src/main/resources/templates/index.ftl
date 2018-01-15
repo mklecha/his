@@ -35,20 +35,32 @@
                         <p>
                             Buziaki od M i ściski od F
                         </p>
-                        <p>
-                            <a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>
-                        </p>
+                        <#--<p>-->
+                            <#--<a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>-->
+                        <#--</p>-->
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <div class="container content-section">
-                <form>
-                    <input type="password">
-                    <button>Zaloguj się</button>
-                </form>
+            <div class="photo-break">
+            </div>
+        </section>
 
+        <section>
+            <div class="container content-section text-center">
+                <div class="row col-xs-10 col-xs-offset-1 wow fadeInLeft">
+                    <h2>Więcej informacji po zalogowaniu się</h2>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
+                        </p>
+                        <form class="row logging-form">
+                            <input type="password" class="col-xs-12 col-sm-8">
+                            <button class="col-xs-12 col-sm-4">Zaloguj</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
