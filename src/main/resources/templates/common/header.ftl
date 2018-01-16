@@ -13,9 +13,16 @@
 				<ul class="nav navbar-nav">
 					<li <#if active == 'main'>class="active"</#if>><a href="./">Strona domowa</a></li>
 					<li <#if active == 'info'>class="active"</#if>><a href="wedding.html">Ślub</a></li>
-					<li <#if active == 'reception'>class="active"</#if>><a href="reception.html">Wesele</a></li>
+					<#if userRole??>
+						<li <#if active == 'reception'>class="active"</#if>><a href="reception.html">Wesele</a></li>
+					</#if>
 					<li <#if active == 'contact'>class="active"</#if>><a href="contact.html">Kontakt</a></li>
-					<li id="admin-panel" <#if active == 'admin'>class="active"</#if>><a href="admin.html">Panel Administatora</a></li>
+					<#if userRole?? && userRole == 'ADMIN'>
+						<li id="admin-panel" <#if active == 'admin'>class="active"</#if>><a href="admin.html">Panel Administatora</a></li>
+					</#if>
+					<#if userRole??>
+						<li><a href="/logout">Wyloguj</a></li>
+					</#if>
 				</ul>
 			</div>
 		</div>

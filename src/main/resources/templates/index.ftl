@@ -53,7 +53,7 @@
                             <p>
                                 Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
                             </p>
-                            <form method="POST" class="row logging-form">
+                            <form method="POST" id="login-form" class="row logging-form">
                                 <input type="hidden" name="username" value="guest"/>
                                 <input type="password" name="password" class="col-xs-12 col-sm-8"/>
                                 <button class="col-xs-12 col-sm-4">Zaloguj</button>
