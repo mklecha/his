@@ -16,7 +16,7 @@ public class UserRole {
     @Autowired
     SecurityService securityService;
 
-    @ModelAttribute("currentUsername")
+    @ModelAttribute("userRole")
     public Role getCurrentUser(Authentication authentication) {
         User user = securityService.findLoggedInUser();
         return user == null ? null : user.getRole();

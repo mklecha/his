@@ -35,9 +35,6 @@
                         <p>
                             Buziaki od M i ściski od F
                         </p>
-                        <#--<p>-->
-                            <#--<a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>-->
-                        <#--</p>-->
                     </div>
                 </div>
             </div>
@@ -48,23 +45,45 @@
         </section>
 
         <section>
-            <div class="container content-section text-center">
+            <div id="login" class="container content-section text-center">
                 <div class="row col-xs-10 col-xs-offset-1 wow fadeInLeft">
-                    <h2>Więcej informacji po zalogowaniu się</h2>
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <#if !userRole??>
+                        <h2>Więcej informacji po zalogowaniu się</h2>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <p>
+                                Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
+                            </p>
+                            <form method="POST" class="row logging-form">
+                                <input type="hidden" name="username" value="guest"/>
+                                <input type="password" name="password" class="col-xs-12 col-sm-8"/>
+                                <button class="col-xs-12 col-sm-4">Zaloguj</button>
+                            </form>
+                        </div>
+                    <#else>
+                        Zalogowano
+                    </#if>
+                    <#if error??>
                         <p>
-                            Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
+                            Błąd logowania
                         </p>
-                        <form class="row logging-form">
-                            <input type="password" class="col-xs-12 col-sm-8">
-                            <button class="col-xs-12 col-sm-4">Zaloguj</button>
-                        </form>
-                    </div>
+                    </#if>
+                    <#if logout??>
+                        <p>
+                            Wylogowano pomyślnie
+                        </p>
+                    </#if>
+
                 </div>
             </div>
         </section>
 
+
         <@footer.footer />
+
+        <script>
+            const scrollToLogin = <#if error?? ||  logout??>true<#else>false</#if>;
+        </script>
+        <script type="text/javascript" src="js/login.js"></script>
 
     </body>
 </html>

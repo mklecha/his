@@ -1,13 +1,20 @@
 package pl.michalklecha.his.controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class PageController {
 
     @RequestMapping(path = "/")
-    public String index() {
+    public String login(Model model, String error, String logout) {
+        if (error != null) {
+            model.addAttribute("error", "");
+        }
+        if (logout != null) {
+            model.addAttribute("logout", "true");
+        }
         return "index";
     }
 
