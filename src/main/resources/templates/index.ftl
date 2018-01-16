@@ -60,17 +60,34 @@
                             </form>
                         </div>
                     <#else>
-                        Zalogowano
+                        <h2>Tutaj informacje o weselu i przycisk do kolejnej zakładki</h2>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <p>
+                                Ze względu na powagę sytuacji mamy nawet stronę internetową!<br/> Mamy nadzieję, że będzie pomocna i Wam się spodoba.
+                            </p>
+                            <p>
+                                Buziaki od M i ściski od F
+                            </p>
+                            <p>
+                                <a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>
+                            </p>
+                        </div>
                     </#if>
                     <#if error??>
-                        <p>
-                            Błąd logowania
-                        </p>
+                        <div class="col-lg-8 col-lg-offset-2 my-alert">
+                            <div class="alert alert-danger alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <strong>Błąd!</strong> Wpisano niepoprawne hasło.
+                            </div>
+                        </div>
                     </#if>
                     <#if logout??>
-                        <p>
-                            Wylogowano pomyślnie
-                        </p>
+                        <div class="col-lg-8 col-lg-offset-2 my-alert">
+                            <div class="alert alert-info alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <strong>Sukces!</strong> Wylogowałeś się pomyślnie.
+                            </div>
+                        </div>
                     </#if>
 
                 </div>

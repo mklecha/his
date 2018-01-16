@@ -185,12 +185,23 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     font-family: 'Alegreya', serif;
+    margin-bottom: 10px;
 }
 
 .logging-form button:hover {
     background-color: #333;
     color: #fff;
     border: 2px solid #333;
+}
+
+.my-alert {
+    padding: 0;
+}
+
+.my-alert .alert {
+    border-radius: 0;
+    border: 2px solid #333;
+    font-size: 18px;
 }
 
 /* GIFTS */
