@@ -47,19 +47,7 @@
         <section>
             <div id="login" class="container content-section text-center">
                 <div class="row col-xs-10 col-xs-offset-1 wow fadeInLeft">
-                    <#if !userRole??>
-                        <h2>Więcej informacji po zalogowaniu się</h2>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <p>
-                                Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
-                            </p>
-                            <form method="POST" id="login-form" class="row logging-form">
-                                <input type="hidden" name="username" value="guest"/>
-                                <input type="password" name="password" class="col-xs-12 col-sm-8"/>
-                                <button class="col-xs-12 col-sm-4">Zaloguj</button>
-                            </form>
-                        </div>
-                    <#else>
+                    <#if userRole != 'GUEST'>
                         <h2>Tutaj informacje o weselu i przycisk do kolejnej zakładki</h2>
                         <div class="col-lg-8 col-lg-offset-2">
                             <p>
@@ -72,22 +60,34 @@
                                 <a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>
                             </p>
                         </div>
-                    </#if>
-                    <#if error??>
+                    <#else>
+                        <h2>Więcej informacji po zalogowaniu się</h2>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <p>
+                                Aby uzyskać znaleźć więcej informacji wpisz hasło z zaproszenia
+                            </p>
+                            <form method="POST" action="/login" id="login-form" class="row logging-form">
+                                <input type="hidden" name="username" value="guest"/>
+                                <input type="password" name="password" class="col-xs-12 col-sm-8"/>
+                                <button class="col-xs-12 col-sm-4">Zaloguj</button>
+                            </form>
+                        </div>
+                        <#if error??>
                         <div class="col-lg-8 col-lg-offset-2 my-alert">
                             <div class="alert alert-danger alert-dismissible" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <strong>Błąd!</strong> Wpisano niepoprawne hasło.
                             </div>
                         </div>
-                    </#if>
-                    <#if logout??>
+                        </#if>
+                        <#if logout??>
                         <div class="col-lg-8 col-lg-offset-2 my-alert">
                             <div class="alert alert-info alert-dismissible" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <strong>Sukces!</strong> Wylogowałeś się pomyślnie.
                             </div>
                         </div>
+                        </#if>
                     </#if>
                 </div>
             </div>

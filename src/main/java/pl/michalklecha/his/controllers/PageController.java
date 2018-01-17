@@ -22,8 +22,8 @@ public class PageController {
     }
 
     @RequestMapping(path = "/login")
-    public String login(Model model){
-        return login(model, "", null, null);
+    public String login(Model model, String error, String logout){
+        return login(model, "", error, logout);
     }
 
     @RequestMapping(path = "/wedding.html")
