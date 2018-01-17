@@ -89,7 +89,6 @@
                             </div>
                         </div>
                     </#if>
-
                 </div>
             </div>
         </section>
@@ -98,7 +97,7 @@
         <@footer.footer />
 
         <script>
-            const scrollToLogin = <#if error?? ||  logout??>true<#else>false</#if>;
+            const scrollToLogin = <#if error?? ||  logout?? || login??>true<#else>false</#if>;
         </script>
         <script type="text/javascript" src="js/login.js"></script>
 

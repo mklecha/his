@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PageController {
 
     @RequestMapping(path = "/")
-    public String login(Model model, String error, String logout) {
+    public String login(Model model, String login, String error, String logout) {
+        if (login != null) {
+            model.addAttribute("login", "");
+        }
         if (error != null) {
             model.addAttribute("error", "");
         }
@@ -16,6 +19,11 @@ public class PageController {
             model.addAttribute("logout", "true");
         }
         return "index";
+    }
+
+    @RequestMapping(path = "/login")
+    public String login(Model model){
+        return login(model, "", null, null);
     }
 
     @RequestMapping(path = "/wedding.html")
