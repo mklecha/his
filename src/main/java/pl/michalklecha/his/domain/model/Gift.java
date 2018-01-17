@@ -1,4 +1,4 @@
-package pl.michalklecha.his.model;
+package pl.michalklecha.his.domain.model;
 
 import javax.persistence.*;
 

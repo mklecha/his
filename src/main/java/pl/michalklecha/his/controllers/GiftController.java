@@ -1,9 +1,11 @@
 package pl.michalklecha.his.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pl.michalklecha.his.model.Gift;
+import pl.michalklecha.his.domain.model.Gift;
+import pl.michalklecha.his.domain.repositories.GiftRepository;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -11,14 +13,12 @@ import java.util.List;
 @Controller
 public class GiftController {
 
+    @Autowired
+    GiftRepository giftRepository;
+
     @RequestMapping(path = "/gifts.html")
     public String gifts(Model model) {
-        List<Gift> gifts = new LinkedList<>();
-
-        gifts.add(new Gift("name", "descr", "link"));
-        gifts.add(new Gift("name2", "descr", "link"));
-        gifts.add(new Gift("name3", "descr", "link"));
-        gifts.add(new Gift("name3", "descr", "link", true));
+        List<Gift> gifts = giftRepository.findAllByOrderByReserved();
 
         model.addAttribute("gifts", gifts);
 
