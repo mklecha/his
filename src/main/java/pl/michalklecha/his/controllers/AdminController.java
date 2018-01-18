@@ -37,14 +37,14 @@ public class AdminController {
     }
 
     @RequestMapping(path = "/manage-gifts.html/{giftId}/delete")
-    public String delete(Model model, @PathVariable Integer giftId) {
+    public String deleteGift(Model model, @PathVariable Integer giftId) {
         giftRepository.delete(giftId);
 
         return gifts(model);
     }
 
     @RequestMapping(path = "/manage-gifts.html/{giftId}/changeReservation")
-    public String change(Model model, @PathVariable Integer giftId) {
+    public String changeGift(Model model, @PathVariable Integer giftId) {
         Gift gift = giftRepository.findOne(giftId);
         if (gift == null) {
             throw new NotFoundException();
@@ -57,7 +57,7 @@ public class AdminController {
     }
 
     @RequestMapping(path = "/add-gifts.html")
-    public String add(Model model, @RequestParam @NotNull String name, @RequestParam @NotNull String description, @RequestParam String link){
+    public String addGift(Model model, @RequestParam @NotNull String name, @RequestParam @NotNull String description, @RequestParam String link){
         Gift gift = new Gift(name, description, link);
         giftRepository.save(gift);
 
@@ -70,4 +70,12 @@ public class AdminController {
         model.addAttribute("invitations", invitations);
         return "admin/invitations";
     }
+
+    @RequestMapping(path = "/manage-invitations.html/{invitationKey}/delete")
+    public String deleteInvitation(Model model, @PathVariable String invitationKey) {
+        invitationRepository.delete(invitationKey);
+
+        return invitations(model);
+    }
+
 }

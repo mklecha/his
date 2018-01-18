@@ -48,3 +48,12 @@ function changeReservation(id) {
         }
     });
 }
+
+function deleteInvitation(id) {
+    $.ajax({
+        url: urls[invId] + "/" + id + "/delete",
+        success: function (data) {
+            $('#admin-tab').html(data);
+        }
+    });
+}
