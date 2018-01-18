@@ -26,13 +26,6 @@ public class Gift {
         this.link = link;
     }
 
-    public Gift(String name, String description, String link, boolean reserved) {
-        this.name = name;
-        this.description = description;
-        this.link = link;
-        this.reserved = reserved;
-    }
-
     public int getId() {
         return id;
     }
@@ -79,5 +72,9 @@ public class Gift {
 
     public void setReserved(boolean reserved) {
         this.reserved = reserved;
+    }
+
+    public void changeReservation() {
+        this.reserved = !this.reserved;
     }
 }

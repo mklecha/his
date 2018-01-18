@@ -8,10 +8,10 @@
 		<@header.header 'admin' />
 
         <header class="wedding reception">
-            <div class="intro-body">
+            <div class="intro-body black-background">
                 <div class="container admin-navigation">
-                    <a href="javascript:load(giftsId);" class="col-xs-6">Prezenty</a>
-                    <a href="javascript:load(invId);" class="col-xs-6">Zaproszenia</a>
+                    <a id="gifts" class="col-xs-6 admin-nav" onclick="load(giftsId);" >Prezenty</a>
+                    <a id="invitations" class="col-xs-6 admin-nav" onclick="load(invId);">Zaproszenia</a>
                 </div>
                 <div class="container" id="admin-tab"></div>
             </div>

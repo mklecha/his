@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
 
 /**/
 
-.btnghost{
+.btnghost {
     font-size: 18px;
 }
 
@@ -294,6 +294,49 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     .admin-navigation {
         margin-top: 150px;
     }
+}
+
+.admin-nav {
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.admin-nav.active {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#admin-tab .table {
+    text-align: right;
+    font-size: 18px;
+    line-height: 2;
+}
+
+#admin-tab .table th {
+    text-align: right;
+}
+
+@media (max-width: 991px) {
+    button.phase2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.reserved {
+    background: rgba(0, 128, 0, 0.5);
+}
+
+.form-horizontal legend {
+    color: white;
+}
+
+.form-horizontal input, .form-horizontal textarea {
+    border-radius: 0;
+}
+
+.link-error {
+    margin-top: 10px;
+    border-radius: 0;
 }
 
 /* FOOTER */
