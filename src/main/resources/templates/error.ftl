@@ -5,7 +5,7 @@
 <html lang="pl">
     <@head.head 'Error 404'/>
     <body>
-        <header class="wedding">
+        <header class="wedding contact-bg">
             <div class="intro-body">
                 <div class="container">
                     <div class="row margined">
