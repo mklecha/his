@@ -20,7 +20,7 @@
                 <div class="container">
                     <div class="row margined">
                         <div class="black-background">
-                            <h1 class="brand-heading" style="padding-left: 15px; padding-right: 15px;">${invitation.message}</h1>
+                            <h1 class="brand-heading yellow" style="padding-left: 15px; padding-right: 15px;">${invitation.message}</h1>
                             <p class="intro-text" style="padding-left: 15px; padding-right: 15px;">
                                 Zapraszamy ${word} serdecznie! ${word2} koniecznie
                             </p>
