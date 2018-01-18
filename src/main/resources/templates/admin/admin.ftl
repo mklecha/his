@@ -4,22 +4,19 @@
 <!DOCTYPE html>
 <html lang="pl" xmlns="http://www.w3.org/1999/html">
 	<@head.head 'Wesele - Maja i Jędrek'/>
-<body>
+    <body>
 		<@header.header 'admin' />
 
-<!-- Intro Header -->
-<header class="wedding reception">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row margined">
-                <div class="col-md-8 col-md-offset-2 black-background wow fadeInDown">
-                    <p>Tutaj jeszcze nic nie ma, to i tak nie będzie publiczne</p>
+        <header class="wedding reception">
+            <div class="intro-body">
+                <div class="container admin-navigation">
+                    <a href="javascript:load(giftsId);" class="col-xs-6">Prezenty</a>
+                    <a href="javascript:load(invId);" class="col-xs-6">Zaproszenia</a>
                 </div>
+                <div class="container" id="admin-tab"></div>
             </div>
-        </div>
-    </div>
-</header>
+        </header>
         <@footer.footer />
-
-</body>
+        <script type="text/javascript" src="js/admin.js"></script>
+    </body>
 </html>

@@ -280,6 +280,22 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     padding-bottom: 40px;
 }
 
+/* ADMIN PAGE */
+
+.admin-navigation {
+    margin-bottom: 20px;
+}
+
+.admin-navigation a {
+    font-size: 19px;
+}
+
+@media (min-width: 768px) {
+    .admin-navigation {
+        margin-top: 150px;
+    }
+}
+
 /* FOOTER */
 
 footer {

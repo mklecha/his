@@ -7,12 +7,14 @@
         <th width="10%"></th>
         <th width="15%"></th>
     </tr>
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>3</td>
-        <td>3</td>
-        <td>3</td>
-    </tr>
+    <#list gifts as gift>
+        <tr>
+            <td>${gift.id?c}</td>
+            <td>${gift.name}</td>
+            <td>${gift.link}</td>
+            <td>${gift.description}</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </#list>
 </table>
