@@ -25,7 +25,7 @@
                                 Zapraszamy ${word} serdecznie! ${word2} koniecznie
                             </p>
                             <p>
-                                <a href="./" class="btninv"><i class="fa fa-info-circle"></i> Więcej informacji</a>
+                                <a href="./" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>
                             </p>
                         </div>
                     </div>

@@ -280,26 +280,6 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     padding-bottom: 40px;
 }
 
-.btninv {
-    border: 2px solid #eee;
-    background-color: transparent;
-    padding: 15px 20px;
-    letter-spacing: 3px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #eee;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    display: inline-block;
-}
-
-.btninv:hover {
-    background-color: #eee;
-    color: #333;
-    border: 2px solid #eee;
-}
-
 /* FOOTER */
 
 footer {
