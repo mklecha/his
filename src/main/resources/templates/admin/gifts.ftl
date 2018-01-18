@@ -32,8 +32,7 @@
         </tr>
     </#list>
 </table>
-
-<form id="new-gift-form" class="form-horizontal" method="POST">
+<form id="new-gift-form" class="form-horizontal" method="POST" autocomplete="off">
     <fieldset>
         <!-- Form Name -->
         <legend>Nowy wpis</legend>
@@ -79,10 +78,9 @@
     $('#new-gift-form').submit(function (event) {
         event.preventDefault();
         $.ajax({
-            url: "/add-gifts.html",
+            url: "/add-gift.html",
             data: $(this).serialize(),
             success: function (data) {
-                $('#gift').html(data);
                 $('#admin-tab').html(data);
             }
         });

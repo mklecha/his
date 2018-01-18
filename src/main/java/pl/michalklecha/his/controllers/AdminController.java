@@ -53,11 +53,11 @@ public class AdminController {
         gift.changeReservation();
         giftRepository.save(gift);
 
-       return gifts(model);
+        return gifts(model);
     }
 
-    @RequestMapping(path = "/add-gifts.html")
-    public String addGift(Model model, @RequestParam @NotNull String name, @RequestParam @NotNull String description, @RequestParam String link){
+    @RequestMapping(path = "/add-gift.html")
+    public String addGift(Model model, @RequestParam @NotNull String name, @RequestParam @NotNull String description, @RequestParam String link) {
         Gift gift = new Gift(name, description, link);
         giftRepository.save(gift);
 
@@ -77,5 +77,15 @@ public class AdminController {
 
         return invitations(model);
     }
+
+    @RequestMapping(path = "/add-invitation.html")
+    public String addInvitation(Model model, @RequestParam @NotNull String pageKey, @RequestParam @NotNull String message, @RequestParam(defaultValue = "false") Boolean plural) {
+
+        Invitation invitation = new Invitation(pageKey, message, plural);
+        invitationRepository.save(invitation);
+
+        return invitations(model);
+    }
+
 
 }

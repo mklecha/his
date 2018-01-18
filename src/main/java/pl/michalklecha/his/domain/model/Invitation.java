@@ -13,6 +13,12 @@ public class Invitation {
     public Invitation() {
     }
 
+    public Invitation(String pageKey, String message, boolean plural) {
+        this.pageKey = pageKey;
+        this.message = message;
+        this.plural = plural;
+    }
+
     public String getPageKey() {
         return pageKey;
     }
