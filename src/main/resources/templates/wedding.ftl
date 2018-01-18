@@ -3,7 +3,7 @@
 <#import 'common/footer.ftl' as footer/>
 <!DOCTYPE html>
 <html lang="pl">
-	<@head.head 'Informacje - Maja i Jędrek'/>
+	<@head.head 'Helena i Szymon - Informacje'/>
 	<body>
 		<@header.header 'info'/>
 

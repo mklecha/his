@@ -3,7 +3,7 @@
 <#import 'common/footer.ftl' as footer/>
 <!DOCTYPE html>
 <html lang="pl">
-	<@head.head 'Prezenty - Maja i Jędrek'/>
+	<@head.head 'Helena i Szymon - Prezenty'/>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 		<@header.header 'reception' />
 

@@ -3,7 +3,7 @@
 <#import 'common/footer.ftl' as footer/>
 <!DOCTYPE html>
 <html lang="pl">
-	<@head.head 'Maja i Jędrek - strona ślubna'/>
+	<@head.head 'Helena i Szymon - strona ślubna'/>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 		<@header.header 'main'/>
 

@@ -3,7 +3,7 @@
 <#import 'common/footer.ftl' as footer/>
 <!DOCTYPE html>
 <html lang="pl" xmlns="http://www.w3.org/1999/html">
-	<@head.head 'Wesele - Maja i Jędrek'/>
+	<@head.head 'Helena i Szymon - Wesele'/>
 	<body>
 		<@header.header 'reception' />
 
