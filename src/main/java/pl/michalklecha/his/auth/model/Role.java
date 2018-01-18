@@ -1,5 +1,5 @@
 package pl.michalklecha.his.auth.model;
 
 public enum Role {
-    GUEST, AUTHENTIICATED, ADMIN
+    GUEST, AUTHENTICATED, ADMIN
 }
