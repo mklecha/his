@@ -1,7 +1,6 @@
 package pl.michalklecha.his.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.method.P;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,9 +11,11 @@ import pl.michalklecha.his.domain.model.Invitation;
 import pl.michalklecha.his.domain.repositories.GiftRepository;
 import pl.michalklecha.his.domain.repositories.InvitationRepository;
 import pl.michalklecha.his.exceptions.NotFoundException;
+import pl.michalklecha.his.exceptions.WrongInvitationKeyException;
 
 import javax.validation.constraints.NotNull;
 import java.util.List;
+import java.util.regex.Pattern;
 
 @Controller
 public class AdminController {
@@ -23,6 +24,8 @@ public class AdminController {
     InvitationRepository invitationRepository;
     @Autowired
     GiftRepository giftRepository;
+
+    Pattern pattern = Pattern.compile("[a-zA-Z]+");
 
     @RequestMapping(path = "/admin.html")
     public String admin() {
@@ -80,6 +83,9 @@ public class AdminController {
 
     @RequestMapping(path = "/add-invitation.html")
     public String addInvitation(Model model, @RequestParam @NotNull String pageKey, @RequestParam @NotNull String message, @RequestParam(defaultValue = "false") Boolean plural) {
+        if (!pattern.matcher(pageKey).matches() || invitationRepository.exists(pageKey)) {
+            throw new WrongInvitationKeyException();
+        }
 
         Invitation invitation = new Invitation(pageKey, message, plural);
         invitationRepository.save(invitation);

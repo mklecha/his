@@ -26,13 +26,21 @@
     <fieldset>
         <!-- Form Name -->
         <legend>Nowe zaproszenie</legend>
+        <div class="col-lg-8 col-lg-offset-2 my-alert">
+            <div id='key-error' class="alert alert-danger alert-dismissible" role="alert" style="display: none;">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Błąd!</strong> Wprowadzono niepoprawny lub powtarzający się klucz.
+            </div>
+        </div>
 
         <div class="col-md-8 col-md-offset-2">
             <!-- Text input-->
             <div class="form-group">
                 <label class="col-md-2 control-label" for="name">Klucz</label>
                 <div class="col-md-10">
-                    <input id="name" name="pageKey" type="text" placeholder="Tu wpisz klucz (musi być unikatowy)" class="form-control input-md" required="">
+                    <input id="name" name="pageKey" type="text" placeholder="Tu wpisz klucz (musi być unikatowy, składać się tylko z małych liter)" class="form-control input-md" required=""
+                           pattern="[a-zA-Z]+" oninput="setCustomValidity('')"
+                           oninvalid="setCustomValidity('Klucz może zawierać tylko małe litery, żadnych cyfr i znaków specjalnych')">
 
                 </div>
             </div>
@@ -70,6 +78,9 @@
             method: 'POST',
             success: function (data) {
                 $('#admin-tab').html(data);
+            },
+            error: function () {
+                $('#key-error').show();
             }
         });
     });
