@@ -3,11 +3,11 @@
         <div class="container text-center">
            <div class="col-md-4">
                <i class="fa fa-phone animated"></i>
-               Numer Mai: <a href="tel:793779060" class="yellow">793 779 060</a>
+               Numer Heleny: <a href="tel:793779060" class="yellow">793 779 060</a>
            </div>
             <div class="col-md-4">
                 <i class="fa fa-phone animated"></i>
-                Numer Jędrka: <a href="tel:695954597" class="yellow">695 954 597</a>
+                Numer Szymona: <a href="tel:695954597" class="yellow">695 954 597</a>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-envelope animated"></i>
