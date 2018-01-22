@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/bg/bg-img-1.jpg');
+    background-image: url('../img/bg/bg-img-1.jpg');
 }
 
 .wedding {
