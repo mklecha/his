@@ -67,6 +67,7 @@
         $.ajax({
             url: "/add-invitation.html",
             data: $(this).serialize(),
+            method: 'POST',
             success: function (data) {
                 $('#admin-tab').html(data);
             }

@@ -80,6 +80,7 @@
         $.ajax({
             url: "/add-gift.html",
             data: $(this).serialize(),
+            method: 'POST',
             success: function (data) {
                 $('#admin-tab').html(data);
             }

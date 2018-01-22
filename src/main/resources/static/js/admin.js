@@ -34,6 +34,7 @@ function phase2(id) {
 function deleteGift(id) {
     $.ajax({
         url: urls[giftsId] + "/" + id + "/delete",
+        method: 'POST',
         success: function (data) {
             $('#admin-tab').html(data);
         }
@@ -43,6 +44,7 @@ function deleteGift(id) {
 function changeReservation(id) {
     $.ajax({
         url: urls[giftsId] + "/" + id + "/changeReservation",
+        method: 'POST',
         success: function (data) {
             $('#admin-tab').html(data);
         }
@@ -52,6 +54,7 @@ function changeReservation(id) {
 function deleteInvitation(id) {
     $.ajax({
         url: urls[invId] + "/" + id + "/delete",
+        method: 'POST',
         success: function (data) {
             $('#admin-tab').html(data);
         }
