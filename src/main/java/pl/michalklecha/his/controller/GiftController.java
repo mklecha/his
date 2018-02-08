@@ -1,4 +1,4 @@
-package pl.michalklecha.his.controllers;
+package pl.michalklecha.his.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import pl.michalklecha.his.domain.model.Gift;
 import pl.michalklecha.his.domain.repositories.GiftRepository;
 
-import java.util.LinkedList;
 import java.util.List;
 
 @Controller

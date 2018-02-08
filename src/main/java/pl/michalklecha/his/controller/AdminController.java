@@ -1,4 +1,4 @@
-package pl.michalklecha.his.controllers;
+package pl.michalklecha.his.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,8 +10,8 @@ import pl.michalklecha.his.domain.model.Gift;
 import pl.michalklecha.his.domain.model.Invitation;
 import pl.michalklecha.his.domain.repositories.GiftRepository;
 import pl.michalklecha.his.domain.repositories.InvitationRepository;
-import pl.michalklecha.his.exceptions.NotFoundException;
-import pl.michalklecha.his.exceptions.WrongInvitationKeyException;
+import pl.michalklecha.his.exception.NotFoundException;
+import pl.michalklecha.his.exception.WrongInvitationKeyException;
 
 import javax.validation.constraints.NotNull;
 import java.util.List;

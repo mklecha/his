@@ -1,4 +1,4 @@
-package pl.michalklecha.his.controllers;
+package pl.michalklecha.his.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
