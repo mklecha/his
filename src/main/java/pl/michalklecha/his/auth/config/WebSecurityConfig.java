@@ -29,10 +29,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        String[] resources = new String[]{"/js/**", "/css/**", "/img/**", "/webjars/**"};
+        http.csrf().disable().authorizeRequests().antMatchers(resources).permitAll();
+
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/js/**", "/css/**", "/img/**", "/webjars/**", "/", "/wedding.html", "/contact.html", "/invitation-*").permitAll()
+                .antMatchers("/", "/wedding.html", "/contact.html", "/invitation-*").permitAll()
                 .antMatchers("/reception.html", "/gifts.html").access("hasAuthority('AUTHENTICATED') or hasAuthority('ADMIN')")
                 .anyRequest().access("hasAuthority('ADMIN')")
                 .and()
