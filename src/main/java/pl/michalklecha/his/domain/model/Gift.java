@@ -17,7 +17,7 @@ public class Gift {
     private String photo;
     private boolean reserved;
 
-    public Gift() {
+    protected Gift() {
     }
 
     public Gift(String name, String description, String link) {

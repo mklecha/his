@@ -10,7 +10,7 @@ public class Invitation {
     private String message;
     private boolean plural;
 
-    public Invitation() {
+    protected Invitation() {
     }
 
     public Invitation(String pageKey, String message, boolean plural) {
