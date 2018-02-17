@@ -25,27 +25,27 @@ public class HisApplicationTests {
     private PageController pageController;
 
     @Test
-    public void adminLoads() {
+    public void adminControllerLoads() {
         assertNotNull(adminController);
     }
 
     @Test
-    public void exceptionLoads() {
+    public void exceptionControllerLoads() {
         assertNotNull(exceptionController);
     }
 
     @Test
-    public void giftLoads() {
+    public void giftControllerLoads() {
         assertNotNull(giftController);
     }
 
     @Test
-    public void invitationLoads() {
+    public void invitationControllerLoads() {
         assertNotNull(invitationController);
     }
 
     @Test
-    public void pageLoads() {
+    public void pageControllerLoads() {
         assertNotNull(pageController);
     }
 

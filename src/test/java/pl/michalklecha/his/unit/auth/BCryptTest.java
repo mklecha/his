@@ -3,25 +3,27 @@ package pl.michalklecha.his.unit.auth;
 import org.junit.Test;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import static junit.framework.TestCase.assertTrue;
+import static org.assertj.core.api.Assertions.*;
+
 
 public class BCryptTest {
 
-    BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(4);
+    private static final int BCRYPT_STRENGTH = 4;
+    private BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(BCRYPT_STRENGTH);
 
     @Test
     public void testEncodeA() {
-        assertTrue(encoder.matches("a", "$2a$04$5bDXD19RR94ofSDhG6jN8eMs5KOseL7JZw6uPpugn2nLEEFHDJHMm"));
+        assertThat(encoder.matches("a", "$2a$04$5bDXD19RR94ofSDhG6jN8eMs5KOseL7JZw6uPpugn2nLEEFHDJHMm")).isTrue();
     }
 
     @Test
     public void testEncode1() {
-        assertTrue(encoder.matches("1", "$2a$04$PYz2.PkQOSVzQcwye0b5N.5GMl2TpKfknhmkjnOpVOn0nPyX6vPi6"));
+        assertThat(encoder.matches("1", "$2a$04$PYz2.PkQOSVzQcwye0b5N.5GMl2TpKfknhmkjnOpVOn0nPyX6vPi6")).isTrue();
     }
 
     @Test
     public void testEncode() {
         String hash = encoder.encode("a");
-        assertTrue(encoder.matches("a", hash));
+        assertThat(encoder.matches("a", hash)).isTrue();
     }
 }
