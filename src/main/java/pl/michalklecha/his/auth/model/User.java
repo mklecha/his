@@ -16,6 +16,15 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    protected User() {
+    }
+
+    public User(String login, String password, Role role) {
+        this.login = login;
+        this.password = password;
+        this.role = role;
+    }
+
     public int getId() {
         return id;
     }
