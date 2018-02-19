@@ -75,6 +75,20 @@ public class AuthorizedPageTest {
         assertThat(driver.findElement(By.tagName("h1")).getText()).isEqualToIgnoringCase("lista prezentów");
     }
 
+    @Test
+    public void guestCantAccessAdminPage() {
+        login("a");
+        driver.navigate().to("localhost:" + port + "/admin.html");
+        assertThat(driver.findElement(By.tagName("h1")).getText()).isEqualToIgnoringCase("popsowało się :(");
+    }
+
+    @Test
+    public void adminCanAccessAdminPage() {
+        login("a");
+        driver.navigate().to("localhost:" + port + "/admin.html");
+        assertThat(driver.findElement(By.id("gifts")).getText()).isEqualToIgnoringCase("prezenty");
+    }
+
     @After
     public void tearUp() {
         driver.close();
