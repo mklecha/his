@@ -32,9 +32,6 @@
                         <p>
                             Ze względu na powagę sytuacji mamy nawet stronę internetową!<br/> Mamy nadzieję, że będzie pomocna i Wam się spodoba.
                         </p>
-                        <p>
-                            Buziaki od M i ściski od F
-                        </p>
                     </div>
                 </div>
             </div>
@@ -48,13 +45,10 @@
             <div id="login" class="container content-section text-center">
                 <div class="row col-xs-10 col-xs-offset-1 wow fadeInLeft">
                     <#if userRole != 'GUEST'>
-                        <h2>Tutaj informacje o weselu i przycisk do kolejnej zakładki</h2>
+                        <h2>Jesteś zalogowany!</h2>
                         <div class="col-lg-8 col-lg-offset-2">
                             <p>
-                                Ze względu na powagę sytuacji mamy nawet stronę internetową!<br/> Mamy nadzieję, że będzie pomocna i Wam się spodoba.
-                            </p>
-                            <p>
-                                Buziaki od M i ściski od F
+                               Więcej informacji znajdziecie w zakładkach "ŚLUB" i "WESELE", jako zalogowany użytkownik masz też dostęp do listy prezentów.
                             </p>
                             <p>
                                 <a href="wedding.html" class="btnghost"><i class="fa fa-info-circle"></i> Więcej informacji</a>

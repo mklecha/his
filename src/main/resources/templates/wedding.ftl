@@ -7,8 +7,6 @@
 	<body>
 		<@header.header 'info'/>
 
-
-        <!-- Intro Header -->
         <header class="wedding">
             <div class="intro-body">
                 <div class="container">
@@ -16,12 +14,12 @@
                         <div class="col-md-8 col-md-offset-2 black-background wow fadeInDown">
                             <h1 class="brand-heading">ŚLUB</h1>
                             <p class="intro-text">
-                                Serdecznie zapraszamy na <b>Mszę Świętą</b>,<br/>
-                                która odbędzie się 2 września 2017 r. o godzinie 15.00 <br/>
-                                w kościele pw. św. Marcina przy ul. Piwnej 9/11 w&nbsp;Warszawie.<br/>
-                                Mapa znajduje się <a href="#wedding-map" class="page-scroll yellow">poniżej</a>.<br/><br/>
-                                Będziemy wdzięczni za modlitwę w naszej intencji.
 
+                                Nasz <b>Ślub</b> odbędzie się 15 sierpnia 2018 o godzinie 14.00 <br/>
+                                w kościele pw. Św.&nbsp;Szczepana,<br/>
+                                przy ul.&nbsp;<a href="#wedding-map" class="page-scroll yellow">Św.&nbsp;Szczepana 1</a> w&nbsp;Warszawie.<br/>
+                                Dojść do kościoła można od ulic Narbutta lub Melsztyńskiej.<br/><br/>
+                                Mapa znajduje się poniżej.
                             </p>
                             <a href="#wedding-map" class="btn btn-circle page-scroll yellow">
                                 <i class="fa fa-angle-double-down animated yellow"></i>
@@ -35,14 +33,14 @@
         <section id="wedding-map" class="map">
             <div class="row text-center">
                 <div class="col-md-8 wow fadeInLeft">
-                    <h2>Mapa dojazdu do kościoła</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d685.4676800629614!2d21.012700950932164!3d52.24830352534142!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x974850d7c6641593!2zS2_Fm2Npw7PFgiBwdy4gxZp3LiBNYXJjaW5h!5e0!3m2!1spl!2spl!4v1501244705841"
+                    <h2>Mapa okolic do kościoła</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11630.692758898134!2d21.00940459078425!3d52.20610320472746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccd90c9f71a3%3A0x1ca4ba724c3ae9b4!2sKo%C5%9Bci%C3%B3%C5%82+Rzymskokatolicki+Pw.+%C5%9Bw.+Szczepana+Pierwszego+M%C4%99czennika!5e0!3m2!1spl!2spl!4v1519068691001"
                             frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-4 wedding-gifts margined-side wow fadeInRight">
-                    <h2>A jeżeli...</h2>
+                    <h2>Więcej radości?</h2>
                     <p>
-                        A jeżeli komuś przyjdzie ochota czymś nas obdarować, to miło nam będzie zamiast kwiatów otrzymać prezent zawarty w butelce, kopercie lub okładce:)
+                        Bardzo ucieszy nas, jeśli zamiast kwiatów zechcecie podarować nam datek, który przekażemy <a href="http://www.wakcji.org/uchodzcy/" target="_blank" class="yellow">Jezuickiemu Centrum Społecznemu „W Akcji”</a> na rzecz pomocy uchodźcom i migrantom przebywającym w naszym kraju.
                     </p>
                 </div>
             </div>

@@ -3,15 +3,15 @@
         <div class="container text-center">
            <div class="col-md-4">
                <i class="fa fa-phone animated"></i>
-               Numer Heleny: <a href="tel:793779060" class="yellow">793 779 060</a>
+               Numer Heleny: <a href="tel:793779060" class="yellow">TU NUMER HELENY</a>
            </div>
             <div class="col-md-4">
                 <i class="fa fa-phone animated"></i>
-                Numer Szymona: <a href="tel:695954597" class="yellow">695 954 597</a>
+                Numer Szymona: <a href="tel:695954597" class="yellow">TU NUMER SZYMONA</a>
             </div>
             <div class="col-md-4">
                 <i class="fa fa-envelope animated"></i>
-                Adres mailowy: <a href="mailto:jedrekimaja@gmail.com" class="yellow">jedrekimaja@gmail.com</a>
+                Adres mailowy: <a href="mailto:jedrekimaja@gmail.com" class="yellow">TU JAKIŚ MAIL</a>
             </div>
             <div class="col-sm-12 bottom">
                 Autor strony: Michał Klecha<br/>

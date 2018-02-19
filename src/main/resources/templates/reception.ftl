@@ -15,16 +15,18 @@
                         <div class="col-md-8 col-md-offset-2 black-background wow fadeInDown">
                             <h1 class="brand-heading">WESELE</h1>
                             <p class="intro-text">
-                                Wesele rozpocznie się o godzinie 18.30 w przestrzeni "Marzycieli i Rzemieślników" znajdującej się na III piętrze Domu Towarowego Bracia Jabłkowscy, przy ul. Brackiej 25 w&nbsp;Warszawie.
-                            </p>
-                            <p class="intro-text">
-                                Plan dojazdu znajduje się <a href="#reception-map" class="page-scroll yellow">poniżej</a>.
+                                Na przyjęcie weselne zapraszamy do Starej Oranżerii<br/>
+                                przy ul. <a href="#reception-map" class="page-scroll yellow">Marii Świątkiewicz 35</a> w&nbsp;Mrokowie.
                             </p>
                             <p>
-                                Aby rozwiązać odwieczny problem weselnych strojów, zachęcamy do angażownia się w obowiązującą konwencję: <b><i>złoto</i></b> lub <b><i>wąsy</i></b>. Planujemy wyłonić i nagrodzić osoby w najzłotszych strojach i z najlepszym wąsem
+                                Samochodem dojedziecie tam, jeśli za Jabłonowem skręcicie z Alei Krakowskiej w prawo w ulicę Legionów, a następnie w lewo w&nbsp;ulicę Marii Świątkiewicz.<br/>
+                                Autokarem – prosto spod kościoła.
                             </p>
-                            <p class="intro-text">
-                                Prosimy o potwierdzenie przybycia do 10 sierpnia, drogą mailową - na adres <a href="mailto:jedrekimaja@gmail.com" class="yellow">jedrekimaja@gmail.com</a>.
+                            <p>
+                                W związku z ograniczoną liczbą miejsc postojowych oraz koniecznością organizacji transportu będziemy wcześniej pytać o decyzje dotyczące sposobu dojazdu na przyjęcie.
+                            </p>
+                            <p>
+                                Gości jadących z nami do Mrokowa bardzo prosimy o odłożenie życzeń na czas przyjęcia.
                             </p>
                             <a href="#reception-text" class="btnghost page-scroll">
                                 <i class="fa fa-angle-double-down"></i>&nbsp;Prezenty&nbsp;<i class="fa fa-angle-double-down"></i>
@@ -38,18 +40,15 @@
         <section id="reception-text" class="map">
             <div class="row text-center">
                 <div class="container reception-text margined-side wow fadeInLeft">
-                    <h2>A jeżeli...</h2>
+                    <h2>Prezenty</h2>
                     <p>
-                        Dla gości, którzy mają życzenie obdarować nas prezentem, a nie mają na niego pomysłu, przygotowaliśmy <a href="gifts.html">listę prezentów.</a>
+                        Dla tych, którzy chcieliby przy tej okazji czymś nas obdarować, a nie mają pomysłu, czym, przygotowaliśmy <a href="gifts.html">listę prezentów</a>, która może posłużyć jako inspiracja.
                     </p>
                     <p>
-                        Gdyby ktoś pragnął zarezerwować którąś spośród wolnych pozycji na tej liście, prosimy zgłosić taką chęć do naszego świadka - <i>Janka</i>. Skontakować się z nim można przez maila: <a href="mailto:jedrekimaja@gmail.com">jedrekimaja@gmail.com</a>
+                        Żeby mieć pewność, że nikt nie podkradnie Wam pomysłu, napiszcie mail z prośbą o rezerwację do <span style="color: red">TU BRAKUJE DO KOGO</span>. Jego adres: <a href="mailto:jedrekimaja@gmail.com" style="color: red">TU POTRZEBA MAILA</a>
                     </p>
                     <p>
-                        Gdyby ktoś z jakichś przyczyn chciał się wycofać z podjętej wcześniej rezerwacji należy również dać znać <i>Jankowi</i>
-                    </p>
-                    <p>
-                        W związku z naszym półrocznym wyjazdem do Barcelony z wdzięcznością przyjmiemy także prezenty zawarte w kopercie.
+                        Oczywiście mile widziane także niespodzianki, zwłaszcza te, które zmieszczą się w kopercie.
                     </p>
                     <p class="go-to-gifts">
                         <a href="gifts.html" class="btnghost"><i class="fa fa-gift"></i>Przejdź do listy prezentów</a>
@@ -57,14 +56,10 @@
                 </div>
                 <div id="reception-map" class="wow fadeInRight">
                     <h2>Mapa dojazdu do sali weselnej</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.9483614076539!2d21.014412032187852!3d52.23221255107104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccf46e60f2af%3A0x32a4ecd77712044d!2sMarzyciele+i+Rzemie%C5%9Blnicy.+Dom+Innowacji+Spo%C5%82ecznych.!5e0!3m2!1spl!2spl!4v1501245283580"
+                    <#--<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d156743.43278255183!2d20.800615320111756!3d52.13220887400482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x471eccd90c9f71a3%3A0x1ca4ba724c3ae9b4!2sParafia+%C5%9Bw.+Szczepana+Pierwszego+M%C4%99czennika%2C+%C5%9Bw.+Szczepana%2C+Warszawa%2C+Polska!3m2!1d52.2059587!2d21.017591!4m5!1s0x471930a080737033%3A0xa1f9d057757a2c83!2sStara+Oran%C5%BCeria%2C+Marii+%C5%9Awi%C4%85tkiewicz+35%2C+05-552%2C+Polska!3m2!1d52.044394499999996!2d20.856803799999998!5e0!3m2!1spl!2sfr!4v1519070218997"-->
+                            <#--frameborder="0" allowfullscreen></iframe>-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9815.76245936552!2d20.856803800000012!3d52.0443945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1f9d057757a2c83!2sStara+Oran%C5%BCeria!5e0!3m2!1spl!2sfr!4v1519069351940"
                             frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="container reception-text margined-side wow fadeInLeft">
-                    <h2>Informacja</h2>
-                    <p style="font-weight: bold">
-                        Informujemy, że spod kościoła nie będzie zorganizowanego dojazdu do sali weselnej. Oba miejsca są położone w okolicy niesprzyjającej parkowaniu samochodu, dzieli je jednak niewielka odległość więc zachęcamy do skorzystania z komunikacji miejskiej, taksówek, rowerów lub przy dobrej pogodzie z własnych nóg ;)
-                    </p>
                 </div>
             </div>
         </section>
