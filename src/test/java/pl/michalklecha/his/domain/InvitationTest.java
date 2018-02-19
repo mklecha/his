@@ -1,5 +1,6 @@
 package pl.michalklecha.his.domain;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,11 @@ public class InvitationTest {
     @Autowired
     private InvitationRepository invitationRepository;
 
+    @Before
+    public void setUp(){
+        invitationRepository.deleteAll();
+    }
+
     @Test
     public void isEmpty() {
         List<Invitation> invitations = invitationRepository.findAll();
@@ -28,7 +34,6 @@ public class InvitationTest {
     @Test
     public void saveAndFetchInvitation() {
         Invitation invitation = new Invitation("key", "message", false);
-
         invitationRepository.save(invitation);
 
         Invitation fetchedInvitation = invitationRepository.findOne(invitation.getPageKey());
