@@ -1,17 +1,9 @@
 <#macro footer>
     <footer>
         <div class="container text-center">
-           <div class="col-md-4">
-               <i class="fa fa-phone animated"></i>
-               Numer Heleny: <a href="tel:793779060" class="yellow">TU NUMER HELENY</a>
-           </div>
-            <div class="col-md-4">
-                <i class="fa fa-phone animated"></i>
-                Numer Szymona: <a href="tel:695954597" class="yellow">TU NUMER SZYMONA</a>
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-md-offset-4">
                 <i class="fa fa-envelope animated"></i>
-                Adres mailowy: <a href="mailto:jedrekimaja@gmail.com" class="yellow">TU JAKIŚ MAIL</a>
+                Adres mailowy: <a href="mailto:sz.fulara@gmail.com" class="yellow">sz.fulara@gmail.com</a>
             </div>
             <div class="col-sm-12 bottom">
                 Autor strony: Michał Klecha<br/>

@@ -12,9 +12,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 wow fadeInDown">
-                            <h1 class="brand-heading">Witamy na naszej stronie</h1>
-                            <p class="intro-text">Helena i Szymon</p>
-                            <a href="#about" class="btn btn-circle page-scroll yellow">
+                            <h1 class="brand-heading">Ślub<br/>Heleny i Szymona</h1>
+                            <p class="intro-text"></p>
+                            <a href="#login" class="btn btn-circle page-scroll yellow">
                                 <i class="fa fa-angle-double-down animated yellow"></i>
                             </a>
                         </div>
@@ -22,24 +22,6 @@
                 </div>
             </div>
         </header>
-
-        <!-- About Section -->
-        <section id="about">
-            <div class="container content-section text-center">
-                <div class="row col-xs-10 col-xs-offset-1 wow fadeInLeft">
-                    <h2>Będziemy mężem i żoną, <br/>poważna sprawa.</h2>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <p>
-                            Ze względu na powagę sytuacji mamy nawet stronę internetową!<br/> Mamy nadzieję, że będzie pomocna i Wam się spodoba.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="photo-break">
-            </div>
-        </section>
 
         <section>
             <div id="login" class="container content-section text-center">

@@ -38,7 +38,6 @@
                             frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-4 wedding-gifts margined-side wow fadeInRight">
-                    <h2>Więcej radości?</h2>
                     <p>
                         Bardzo ucieszy nas, jeśli zamiast kwiatów zechcecie podarować nam datek, który przekażemy <a href="http://www.wakcji.org/uchodzcy/" target="_blank" class="yellow">Jezuickiemu Centrum Społecznemu „W Akcji”</a> na rzecz pomocy uchodźcom i migrantom przebywającym w naszym kraju.
                     </p>
