@@ -91,6 +91,8 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
 
 #wedding-map .row {
     padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #wedding-map .row .wedding-gifts {
@@ -139,6 +141,14 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
 
 /* HOME */
 
+.ph-1 {
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/break-img-1.jpg');
+}
+
+.ph-2 {
+    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/break-img-2.jpg');
+}
+
 .photo-break {
     display: table;
     width: 100%;
@@ -149,7 +159,6 @@ h1, h2, h3, h4, h5, h6, .navbar-custom, .btn, .btnghost {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.88)), url('../img/break-img-1.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

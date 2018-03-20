@@ -12,7 +12,6 @@
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">
 					<li <#if active == 'main'>class="active"</#if>><a href="./">Strona domowa</a></li>
-					<li <#if active == 'info'>class="active"</#if>><a href="wedding.html">Ślub</a></li>
 					<#if userRole != 'GUEST'>
 						<li <#if active == 'reception'>class="active"</#if>><a href="reception.html">Wesele</a></li>
 					</#if>

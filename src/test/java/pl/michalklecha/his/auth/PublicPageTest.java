@@ -30,12 +30,6 @@ public class PublicPageTest {
     }
 
     @Test
-    public void weddingPageAccessible() throws Exception {
-        String url = "/" + publicPages.get(1);
-        this.mockMvc.perform(get(url)).andExpect(status().isOk());
-    }
-
-    @Test
     public void contactPageAccessible() throws Exception {
         String url = "/" + publicPages.get(2);
         this.mockMvc.perform(get(url)).andExpect(status().isOk());

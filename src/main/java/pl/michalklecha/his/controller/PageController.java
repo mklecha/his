@@ -26,11 +26,6 @@ public class PageController {
         return login(model, "", error, logout);
     }
 
-    @RequestMapping(path = "/wedding.html")
-    public String wedding() {
-        return "wedding";
-    }
-
     @RequestMapping(path = "/contact.html")
     public String contact() {
         return "contact";
