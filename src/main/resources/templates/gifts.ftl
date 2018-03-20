@@ -10,8 +10,8 @@
 
         <section id="gifts" class="wedding reception">
 
-            <div style="margin-top: 100px; margin-bottom: 50px;">
-                <h1 class="wow fadeInDown">Lista prezentów</h1>
+            <div style="margin-top: <#if gifts?size == 0>200<#else>100</#if>px; margin-bottom: 50px;">
+                <h1 class="wow fadeInDown" id="title">Lista prezentów</h1>
 
                 <div class="container">
                 <#list gifts as gift>
