@@ -21,14 +21,14 @@
                     <#list gifts as gift>
                         <div class="row gift-list">
                             <div id="${gift.id}" class="col-sm-12 bg wow <#if gift?index%2 ==0>bg-even fadeInRight<#else>bg-odd fadeInLeft</#if> margined-side">
-                                <div class="col-sm-4 col-md-3 gift-title">
+                                <div class="col-sm-3 col-md-3 gift-title">
                                     ${gift.name}
                                 </div>
-                                <div class="col-sm-7 col-md-7 gift-descr">
+                                <div class="col-sm-6 col-md-7 gift-descr">
                                     ${gift.description}<br/>
                                     <#if gift.link?has_content> <a href="${gift.link}" target="_blank"><u>Przykład tutaj</u></a> </#if>
                                 </div>
-                                <div class="col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-4 gift-descr">
+                                <div class="col-sm-3 col-md-2 col-md-offset-0 gift-descr">
                                     <#if !gift.reserved>
                                         <button class="btn btn-primary" style="width: 100%" onclick="reserveGift(${gift.id})">Zarezerwuj</button>
                                     </#if>

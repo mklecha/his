@@ -86,7 +86,14 @@ public class AuthorizedPageTest {
     public void guestCantAccessAdminPage() {
         login(GUEST_PASSWORD);
         driver.get("localhost:" + port + "/admin.html");
-        assertThat(driver.findElement(By.tagName("h1")).getText()).isEqualToIgnoringCase("popsowało się :(");
+        Utils.makeAllPageVisible(driver);
+        WebElement title = driver.findElement(By.tagName("h1"));
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        try {
+            wait.until(ExpectedConditions.textToBePresentInElement(title, "POPSOWAŁO SIĘ :("));
+        } catch (TimeoutException e) {
+            fail(e.getMessage());
+        }
     }
 
     @Test
