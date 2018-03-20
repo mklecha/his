@@ -1,10 +1,10 @@
-$(document).ready(function() {
+$(document).ready(function () {
     /* Wow */
     new WOW().init();
     checkScroll();
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
     checkScroll();
 });
 
@@ -18,8 +18,8 @@ function checkScroll() {
 }
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
+$(function () {
+    $('a.page-scroll').bind('click', function (event) {
         let $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -27,3 +27,13 @@ $(function() {
         event.preventDefault();
     });
 });
+
+function reserveGift(id) {
+    $.ajax({
+        url: 'reserve-gift/' + id,
+        method: 'POST',
+        success: function (data) {
+            $('#'+id).html(data);
+        }
+    });
+}

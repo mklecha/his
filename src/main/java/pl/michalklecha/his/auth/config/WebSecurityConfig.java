@@ -36,7 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/", "/wedding.html", "/contact.html", "/invitation-*").permitAll()
-                .antMatchers("/reception.html", "/gifts.html").access("hasAuthority('AUTHENTICATED') or hasAuthority('ADMIN')")
+                .antMatchers("/reception.html", "/gifts.html", "/reserve-gift*").access("hasAuthority('AUTHENTICATED') or hasAuthority('ADMIN')")
                 .anyRequest().access("hasAuthority('ADMIN')")
                 .and()
                 .formLogin()

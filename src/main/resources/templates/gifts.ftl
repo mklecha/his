@@ -12,33 +12,37 @@
 
             <div style="margin-top: <#if gifts?size == 0>200<#else>100</#if>px; margin-bottom: 50px;">
                 <h1 class="wow fadeInDown" id="title">Lista prezentów</h1>
-
                 <div class="container">
-                <#list gifts as gift>
-                    <div class="row gift-list">
-                        <div id="${gift.id}" class="col-sm-12 bg wow <#if gift?index%2 ==0>bg-even fadeInRight<#else>bg-odd fadeInLeft</#if> margined-side">
-                            <div class="col-sm-4 col-md-3 gift-title">
-                                ${gift.name}
-                            </div>
-                            <div class="col-sm-7 col-md-7 gift-descr">
-                                ${gift.description}<br/>
-                                <#if gift.link?has_content> <a href="${gift.link}" target="_blank"><u>Przykład tutaj</u></a> </#if>
-                            </div>
-                            <div class="col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-4 gift-descr">
-                                <#if !gift.reserved>
-                                    <button class="btn btn-primary" style="width: 100%">Zarezerwuj</button>
+                    <p>
+                        Ze względów bezpieczeństwa nie ma możliwości "odrezerwować" zarezerwowanego prezentu. Nie przechowujemy też informacji kto co zarezerwował.
+                        Prosimy o przemyślane decyzje i rozważne korzystanie z tej strony.<br/><br/>
+                        W przypadku problemów czy konieczności "odrezerwowania" dajcie znać nam lub Michałowi (kontakt w stopce strony), coś zaradzimy!
+                    </p>
+                    <#list gifts as gift>
+                        <div class="row gift-list">
+                            <div id="${gift.id}" class="col-sm-12 bg wow <#if gift?index%2 ==0>bg-even fadeInRight<#else>bg-odd fadeInLeft</#if> margined-side">
+                                <div class="col-sm-4 col-md-3 gift-title">
+                                    ${gift.name}
+                                </div>
+                                <div class="col-sm-7 col-md-7 gift-descr">
+                                    ${gift.description}<br/>
+                                    <#if gift.link?has_content> <a href="${gift.link}" target="_blank"><u>Przykład tutaj</u></a> </#if>
+                                </div>
+                                <div class="col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-4 gift-descr">
+                                    <#if !gift.reserved>
+                                        <button class="btn btn-primary" style="width: 100%" onclick="reserveGift(${gift.id})">Zarezerwuj</button>
+                                    </#if>
+                                </div>
+                                <#if gift.reserved>
+                                    <div class="gift-reserved">ZAREZERWOWANE</div>
                                 </#if>
                             </div>
-                            <#if gift.reserved>
-                                <div class="gift-reserved">ZAREZERWOWANE</div>
-                            </#if>
                         </div>
-                    </div>
-                <#else>
-                    <div class="wow fadeInUp">
-                        <h2>Jeszcze nic tu nie ma, ale zajrzyj niedługo, pilnie pracujemy nad wypełnieniem tej listy!</h2>
-                    </div>
-                </#list>
+                    <#else>
+                        <div class="wow fadeInUp">
+                            <h2>Jeszcze nic tu nie ma, ale zajrzyj niedługo, pilnie pracujemy nad wypełnieniem tej listy!</h2>
+                        </div>
+                    </#list>
                 </div>
 
             </div>
