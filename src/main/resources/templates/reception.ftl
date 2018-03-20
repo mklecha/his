@@ -42,7 +42,7 @@
                         Dla tych, którzy chcieliby przy tej okazji czymś nas obdarować, a nie mają pomysłu, czym, przygotowaliśmy <a href="gifts.html">listę prezentów</a>, która może posłużyć jako inspiracja.
                     </p>
                     <p>
-                        Oczywiście mile widziane także niespodzianki, zwłaszcza te, które zmieszczą się w kopercie.
+                        Oczywiście mile widziane również niespodzianki, także te w kopercie.
                     </p>
                     <p class="go-to-gifts">
                         <a href="gifts.html" class="btnghost"><i class="fa fa-gift"></i>Przejdź do listy prezentów</a>
