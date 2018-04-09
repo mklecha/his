@@ -7,14 +7,14 @@
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 		<@header.header 'main'/>
 
-        <header class="intro">
+        <header class="intro intro-page">
             <div class="intro-body">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" style="color: #ffa800;">
                         <div class="col-md-8 col-md-offset-2 wow fadeInDown">
-                            <h1 class="brand-heading">Ślub<br/>Heleny i Szymona</h1>
+                            <h1 class="brand-heading" style="margin-top: 0">Ślub<br/>Heleny i Szymona</h1>
                             <p class="intro-text"></p>
-                            <a href="#about" class="btn btn-circle page-scroll yellow">
+                            <a href="#about" class="btn btn-circle page-scroll yellow" style="border: 2px solid #56B153;">
                                 <i class="fa fa-angle-double-down animated yellow"></i>
                             </a>
                         </div>

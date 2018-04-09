@@ -6,7 +6,7 @@
 
 .intro {
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center top;
     background-image: url('../img/bg/bg-img-1.jpg');
 }
@@ -366,4 +366,17 @@ footer .bottom {
 
 footer a {
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .intro-page .intro-body .brand-heading {
+        border-top: 2px solid #56B153 !important;
+        border-bottom: 2px solid #56B153 !important;
+    }
+}
+@media (min-width: 768px) {
+    .intro-page {
+        background-repeat: round !important;
+        background-size: 100% !important;
+    }
 }
