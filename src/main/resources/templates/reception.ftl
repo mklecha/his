@@ -19,7 +19,7 @@
                                 przy ul. <a href="#reception-map" class="page-scroll yellow">Marii Świątkiewicz 35</a> w&nbsp;Mrokowie.
                             </p>
                             <p>
-                                W związku z ograniczoną liczbą miejsc postojowych oraz koniecznością organizacji transportu prosimy o wcześniejszą informację o sposobie dojazdu na wesele. Autokar ruszy spod koscioła o godzinie 16.30.<br/>
+                                W związku z ograniczoną liczbą miejsc postojowych oraz koniecznością organizacji transportu prosimy o wcześniejszą informację o sposobie dojazdu na wesele. Autokar ruszy spod kościoła o godzinie 16.30.<br/>
                                 Planowane kursy powrotne o godzinie 1.00 i 3.00.
                             </p>
                             <p>

@@ -14,7 +14,7 @@
                 <h1 class="wow fadeInDown" id="title">Lista prezentów</h1>
                 <div class="container">
                     <p>
-                        Ze względów bezpieczeństwa nie ma możliwości "odrezerwować" zarezerwowanego prezentu. Nie przechowujemy też informacji kto co zarezerwował.
+                        Ze względów technicznych nie ma możliwości "odrezerwować" zarezerwowanego prezentu. Nie przechowujemy też informacji kto co zarezerwował.
                         Prosimy o przemyślane decyzje i rozważne korzystanie z tej strony.<br/><br/>
                         W przypadku problemów czy konieczności "odrezerwowania" dajcie znać nam lub Michałowi (kontakt w stopce strony), coś zaradzimy!
                     </p>
