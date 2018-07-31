@@ -14,9 +14,8 @@
                 <h1 class="wow fadeInDown" id="title">Lista prezentów</h1>
                 <div class="container">
                     <p>
-                        Ze względów technicznych nie ma możliwości "odrezerwować" zarezerwowanego prezentu. Nie przechowujemy też informacji kto co zarezerwował.
-                        Prosimy o przemyślane decyzje i rozważne korzystanie z tej strony.<br/><br/>
-                        W przypadku problemów czy konieczności "odrezerwowania" dajcie znać nam lub Michałowi (kontakt w stopce strony), coś zaradzimy!
+                        Ze względów technicznych nie ma możliwości odrezerwowania prezentu. Nie przechowujemy też informacji, kto co zarezerwował. W przypadku problemów dajcie znać nam lub Michałowi (kontakt w stopce strony).<br/>
+                        Po zarezerwowaniu link nie jest aktywny, warto wcześniej zapisać przykład :-)
                     </p>
                     <#list gifts as gift>
                         <div class="row gift-list">
@@ -34,7 +33,9 @@
                                     </#if>
                                 </div>
                                 <#if gift.reserved>
-                                    <div class="gift-reserved">ZAREZERWOWANE</div>
+                                    <div class="gift-reserved">
+                                        ZAREZERWOWANE
+                                    </div>
                                 </#if>
                             </div>
                         </div>

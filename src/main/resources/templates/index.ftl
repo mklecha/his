@@ -30,7 +30,7 @@
                     <h2>Informacje ślubne</h2>
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>
-                            Nasz <b>Ślub</b> odbędzie się 15 sierpnia 2018 o godzinie 14.00 <br/>
+                            Nasz <b>ślub</b> odbędzie się 15 sierpnia 2018 o godzinie 14.00 <br/>
                             w kościele pw. św.&nbsp;Szczepana,<br/>
                             przy ul.&nbsp;<a href="#wedding-map" class="page-scroll yellow">św.&nbsp;Szczepana 1</a> w&nbsp;Warszawie.<br/>
                             Dojść do kościoła można od ulic Narbutta lub Melsztyńskiej.
